@@ -1,4 +1,6 @@
-# AWS Terraform Layout (2 VPCs, 3 EC2s, Peering)
+# tf-c2-infra
+
+C2 setup on AWS — Terraform layout for two VPCs, three EC2 hosts, peering, and Docker bootstrap.
 
 This Terraform config creates:
 
