@@ -1,0 +1,13 @@
+aws_region = "us-east-1"
+key_name   = "your-existing-ec2-keypair-name"
+
+# Optional AMI override. Keep empty to use latest Amazon Linux 2023.
+ami_id = ""
+
+# Optional sizing overrides
+instance_type_a = "t3.micro"
+instance_type_b = "t3.micro"
+
+# Optional network overrides
+vpc_a_cidr = "10.10.0.0/16"
+vpc_b_cidr = "10.20.0.0/16"
